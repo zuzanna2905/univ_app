@@ -8,3 +8,10 @@
 
 # Course.create(short_name: 'CS123', name: 'Data Structures', description: 'Now you can leran DS in two weeks')
 # Course.create(short_name: 'CS124', name: 'Algorithms', description: 'Now you can leran Algorithms in two weeks')
+
+# Student.create(name: 'Jon', email: 'jon@gmail.com')
+# Student.create(name: 'Arya', email: 'arya@gmail.com')
+# Student.create(name: 'Sansa', email: 'sansa@gmail.com')
+# Student.create(name: 'Bran', email: 'bran@gmail.com')
+# Student.create(name: 'Rob', email: 'rob@gmail.com')
+# Student.create(name: 'Rickon', email: 'rickon@gmail.com')
