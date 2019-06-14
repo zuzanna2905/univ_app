@@ -1,9 +1,14 @@
 <div class='container'>
     <div class='row center'>
         <div class='col s12 m12 l12'>
-            <div class='card-panel'>
-                <h3>Hi <%= @student.name %>!</h3>
-                <p>Your email: <%= @student.email%></p>
+            <div class='card'>
+                <div class="card-content">
+                    <span class="card-title">Name: <%= @student.name%></span>
+                    <p>Email: <%= @student.email%></p>
+                </div>
+                <div class="card-action">
+                    <p>Current Enrollments</p>
+                </div>
             </div>
         </div>
     </div>
