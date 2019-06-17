@@ -8,6 +8,15 @@
                 </div>
                 <div class="card-action">
                     <p>Current Enrollments</p>
+                    <% if @student.courses.empty? %>
+                        <span> None </span>
+                    <%else%>
+                        <ul>
+                            <% @student.courses.each do |course| %>
+                                <li><%= link_to course.name, course_path(course), class: 'pink-text' %></li>
+                            <% end %>
+                        </ul>
+                    <% end %>
                 </div>
             </div>
         </div>
